@@ -1,0 +1,6 @@
+language: node.js
+install:
+  - git clone $BIKE-API
+script:
+- bash ./test.sh
+
