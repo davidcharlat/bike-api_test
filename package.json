@@ -1,0 +1,20 @@
+{
+  "name": "bike-api",
+  "version": "0.1.0",
+  "description": "",
+  "main": "server.js",
+  "devDependencies": {
+    "mocha": "^6.2.0",
+    "supertest": "^4.0.2"
+  },
+  "scripts": {
+    "start": "node server.js",
+    "test": "mocha ./__tests__/api.test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/davidcharlat/bike-api.git"
+  },
+  "author": "davidcharlat",
+  "license": "ISC"
+}
