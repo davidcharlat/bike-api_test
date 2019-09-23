@@ -1,9 +1,11 @@
 language: node_js
+node_js:
+	- 10
+	- 9
+	- 8
 install:
 	- git clone $BIKEAPI
 script:
 	- cd ./bike-api
- 	- npm install mocha
- 	- npm install supertest
 	- npm test
 
