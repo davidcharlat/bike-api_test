@@ -1,7 +1,7 @@
 language: node_js
 install:
   - git clone $BIKEAPI
-beforescript:
+before_script:
  - npm install mocha
  - npm install supertest
 script:
