@@ -4,6 +4,6 @@ node_js:
 install:
  - git clone $BIKEAPI
 script:
- - cd ./bike-api
+ - cp ./bike-api/package.json ./package.json
  - npm test
 
