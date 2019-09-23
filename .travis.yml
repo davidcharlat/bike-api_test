@@ -8,5 +8,6 @@ install:
  - git clone $BIKEAPI
 script:
  - cd ./bike-api
+ - npm install supertest
  - npm test
 
