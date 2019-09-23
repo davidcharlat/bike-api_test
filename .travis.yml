@@ -2,5 +2,8 @@ language: node_js
 install:
   - git clone $BIKEAPI
 script:
+- ls -d -R */
+- cd ..
+- ls -d */
 - npm test
 
