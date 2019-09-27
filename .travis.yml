@@ -9,4 +9,5 @@ script:
  - cd ./bike-api
  - npm install supertest
  - npm install uuid
+ - npm install jsonschema
  - npm test
