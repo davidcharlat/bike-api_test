@@ -8,4 +8,5 @@ install:
 script:
  - cd ./bike-api
  - npm install supertest
+ - npm install uuid
  - npm test
